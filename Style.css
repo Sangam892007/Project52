@@ -1,0 +1,76 @@
+body{
+    background-color: yellow;
+    padding: 0;
+    margin: 0;
+    margin-top: -12px;
+}
+html{
+    margin:0;
+    padding:0;
+    margin-top: -12px;
+}
+h1{
+    background-color: aqua;
+    padding-top: 25px;
+    padding-bottom: 25px ;
+    font-size: xx-large;
+    font-family: Jokerman;
+    color: crimson;
+    border: red;
+}
+h2{
+    color:navy;
+    font-size: x-large;
+    font-family:Arial;
+}
+p{
+    color:rebeccapurple;
+    font-size: large;
+    font-family: Gill SAns MT;
+}
+li{
+    color:rebeccapurple;
+    font-size: large;
+    font-family: Gill SAns MT;
+
+}
+.Material{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.OrigamiCamel{
+    border-right: black 3px solid;
+    height:500px;
+}
+.OrigamiChameleon{
+    border-right: black 3px solid;
+    height: 500px;
+}
+.OrigamiPigeon{
+    margin-left: 79px;
+    border-right: black 3px solid;
+    height: 500px;
+}
+.OrigamiTeddyBear{
+    margin-left:111px;
+    border-right: black 3px solid;
+    height:500px;
+}
+.OrigamiPanda{
+    margin-left: 36px;
+    border-right: black 3px solid;
+    height: 500px;
+}
+.OrigamiCicada{
+    margin-left: 97px;
+    border-right: black 3px solid;
+    height: 500px;
+}
+img{
+    opacity: 0.6;
+}
+img:hover{
+    opacity: 1;
+    transform: scale(1.4);
+}
